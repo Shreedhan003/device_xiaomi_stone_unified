@@ -80,3 +80,5 @@ persist.radio.is_vonr_enabled_1=true
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
+
+import /vendor/etc/properties/${ro.boot.product.hardware.sku}.prop

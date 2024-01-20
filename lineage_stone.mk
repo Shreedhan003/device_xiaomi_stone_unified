@@ -32,7 +32,6 @@ PRODUCT_NAME := lineage_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := holi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

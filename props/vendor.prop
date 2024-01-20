@@ -354,3 +354,6 @@ ro.vendor.product.device.db=OP_DEVICE
 ro.vendor.product.manufacturer.db=OP_PHONE
 vendor.product.device=OP_PHONE
 vendor.product.manufacturer=OPD
+
+
+import /vendor/etc/properties/${ro.boot.product.hardware.sku}.prop
