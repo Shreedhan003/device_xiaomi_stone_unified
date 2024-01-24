@@ -219,8 +219,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.surface_flinger.set_display_power_timer_ms=3000
 ro.surface_flinger.set_idle_timer_ms=1000
 ro.surface_flinger.set_touch_timer_ms=200
-ro.surface_flinger.use_content_detection_for_refresh_rate=false
-ro.surface_flinger.support_kernel_idle_timer=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Graphics
 debug.renderengine.backend=skiaglthreaded
@@ -269,7 +268,6 @@ vendor.gralloc.disable_ubwc=0
 debug.stagefright.c2inputsurface=-1
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
-persist.mm.enable.prefetch=true
 
 # NFC
 ro.vendor.se.type=HCE,UICC
@@ -355,5 +353,5 @@ ro.vendor.product.manufacturer.db=OP_PHONE
 vendor.product.device=OP_PHONE
 vendor.product.manufacturer=OPD
 
-
+# Device specific properties
 import /vendor/etc/properties/${ro.boot.product.hardware.sku}.prop
