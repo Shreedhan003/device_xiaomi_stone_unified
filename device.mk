@@ -13,9 +13,6 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Dalvik
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # A/B
